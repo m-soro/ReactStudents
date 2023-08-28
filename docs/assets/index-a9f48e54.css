@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}body{margin-top:2em}.App,h1,h2,h3,h4,h5,h6{font-family:Poppins,sans-serif}ul li{list-style-type:none}.Card{display:flex;justify-content:space-between}img{border-radius:50%}details:hover{color:var(--secondary)}.App>h1{padding:var(--block-spacing-vertical);--typography-spacing-vertical: 0}button{width:10em}
