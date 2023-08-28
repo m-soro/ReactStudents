@@ -1,4 +1,5 @@
 import Score from "./Score";
+
 export default function Student({ studentData }) {
   return (
     <div className="Student">
@@ -11,7 +12,7 @@ export default function Student({ studentData }) {
           <details>
             <p>{data.bio}</p>
             <Score scores={data.scores} />
-            <button className="outline">contact</button>
+            <button>contact</button>
           </details>
         </article>
       ))}

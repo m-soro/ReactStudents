@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Student from "./components/Student";
-import Score from "./components/Score";
+import Form from "./components/Form";
 
 import "./App.css";
 
@@ -73,6 +73,7 @@ function App() {
     <div className="App container-fluid">
       <h1>Meet our students</h1>
       <Student studentData={studentData} />
+      <Form />
     </div>
   );
 }
